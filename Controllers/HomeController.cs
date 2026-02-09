@@ -19,7 +19,6 @@ public class HomeController : Controller
         return View();
     }
     
-    
     public IActionResult Contact()
     {
         ViewBag.submitted = false;
@@ -40,6 +39,20 @@ public class HomeController : Controller
     }
 
     public IActionResult Privacy()
+    {
+        return View();
+    }
+
+    public IActionResult SLA()
+    {
+        return View();
+    }
+    public IActionResult SAASTOS()
+    {
+        return View();
+    }
+
+    public IActionResult TOS()
     {
         return View();
     }
