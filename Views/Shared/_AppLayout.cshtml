@@ -66,13 +66,7 @@
         </a>
       </nav>
 
-      <ul id="btnMobileMenu">
-        <li><img src="~/lib/bootstrap-icons/menu-button.svg" /></li>
-        <li class="menuItem text-sm font-medium transition-colors hover:text-emerald-600">Home</li>
-        <li class="menuItem text-sm font-medium transition-colors hover:text-emerald-600">About</li>
-        <li class="menuItem text-sm font-medium transition-colors hover:text-emerald-600">Services</li>
-        <li class="menuItem text-sm font-medium transition-colors hover:text-emerald-600">Contact</li>
-      </ul>
+      
 
       <!-- Mobile Menu Button -->
       <button class="md:hidden" id="mobile-menu-button" aria-label="Open Menu">
@@ -99,6 +93,15 @@
           Get Started
         </a>
       </nav>
+    </div>
+    <div>
+      <ul id="mobileMenu">
+        <li><button id="btnMobileMenu"><img src="~/lib/bootstrap-icons/menu-button.svg" /></button></li>
+        <li class="menuItem text-slate-600 text-sm font-medium transition-colors hover:text-emerald-600" style="display: none;"><a href="/">Home</a></li>
+        <li class="menuItem text-slate-600 text-sm font-medium transition-colors hover:text-emerald-600" style="display: none;"><a href="/Home/About">About</a></li>
+        <li class="menuItem text-slate-600 text-sm font-medium transition-colors hover:text-emerald-600" style="display: none;"><a href="/Home/Services">Services</a></li>
+        <li class="menuItem text-slate-600 text-sm font-medium transition-colors hover:text-emerald-600" style="display: none;"><a href="/Home/Contact">Contact</a></li>
+      </ul>
     </div>
   </header>
 
